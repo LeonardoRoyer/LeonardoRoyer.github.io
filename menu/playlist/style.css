@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-color: pink;
+}
+
+.imagem{
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    left: 42%;
+}
+
+.imagem-2{
+    position: absolute;
+    z-index: 1;
+    top: 61%;
+    left: 42%;
+}

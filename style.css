@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    margin: 0;
+}
+
+video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.botao{
+    position: absolute;
+    z-index: 1;
+    top: 70%;
+    left: 45%;
+    width: 200px;               /* largura para o botão */
+    height: 40px;              /* altura para o botão */
+    padding: 0;
+    margin: -15px 0 0 -30px;   /* margem à esquerda e ao topo metade da medida do botão */
+    border: 0 none;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botao-segundo{
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 80%;
+    left: 45%;
+    width: 200px;               /* largura para o botão */
+    height: 40px;              /* altura para o botão */
+    padding: 0;
+    margin: -15px 0 0 -30px;   /* margem à esquerda e ao topo metade da medida do botão */
+    border: 0 none;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
